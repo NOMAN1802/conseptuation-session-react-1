@@ -3,6 +3,7 @@ import Card from './components/Card/Card';
 import ArrayExample from './components/Event/ArrayExample';
 import Basic from './components/Event/Basic';
 import ObjectExample from './components/Event/ObjectExample';
+import UseEffectExample from './components/Event/UseEffectExample';
 import Person from './components/NestedComponent/Person';
 import guns from "./test"
 
@@ -62,9 +63,10 @@ const App = () => {
       }
       </div>} */}
 
-      {/* <Basic></Basic>
-      <ArrayExample></ArrayExample> */}
-      <ObjectExample></ObjectExample>
+      {/* <Basic></Basic> */}
+      {/* <ArrayExample></ArrayExample> */}
+      {/* <ObjectExample></ObjectExample> */}
+      <UseEffectExample></UseEffectExample>
 
     </>
   );

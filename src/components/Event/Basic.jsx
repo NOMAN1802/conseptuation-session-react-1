@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Basic = () => {
     const [value,setValue] =useState(0);
@@ -7,6 +7,9 @@ const Basic = () => {
         
         setValue(value + 1);
     }
+    // useEffect(() =>{
+    //     console.log('hello from useEffect')
+    // },[value]);
     return (
         <div className='text-center text-3xl mt-6'>
             <h1>Count: {value} </h1>
